@@ -1,5 +1,3 @@
-/* see http:// brianflove.com/2016/11/08/typescript-2-express-node/ */
-
 import * as bodyParser from 'body-parser';
 import * as express from 'express';
 import * as path from 'path';
