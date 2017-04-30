@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-eslint-rules"
+  ],
+  "rules": {
+    "quotemark": [true, "single"]
+  }
+}

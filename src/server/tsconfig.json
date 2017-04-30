@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "types" : ["node", "express", "body-parser"],
+    "sourceMap": true,
+    "outDir": "./../../www"
+  },
+  "include": ["./**/*"],
+  "exclude": []
+}
