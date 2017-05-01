@@ -12,7 +12,7 @@ var HtmlRoute = (function () {
     HtmlRoute.prototype.getHomePage = function (req, res, next) {
         res.locals.message = 'Hello ';
         var data = {
-            user: 'Joes Bloggs (route)',
+            label: 'Click Me!',
         };
         res.render('index', data);
     };

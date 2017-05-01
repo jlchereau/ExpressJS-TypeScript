@@ -53,12 +53,12 @@ export class HtmlRoute {
      */
     public getHomePage(req: Request, res: Response, next: NextFunction) {
 
-        // Set env
+        // Set locals
         res.locals.message = 'Hello ';
 
         // set data
         const data: object = {
-            user: 'Joes Bloggs (route)',
+            label: 'Click Me!',
         };
 
         // render template

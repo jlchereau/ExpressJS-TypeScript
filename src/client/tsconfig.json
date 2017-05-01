@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "module": "umd",
+    "module": "amd",
     "target": "es5",
     "sourceMap": true,
     "outDir": "./../../www/public"
   },
   "include": ["./**/*"],
-  "exclude": []
+  "exclude": ["node_modules"]
 }
