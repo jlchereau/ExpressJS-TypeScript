@@ -1,8 +1,8 @@
 {
-  "name": "TypeScript",
+  "name": "ExpressJS.TypeScript",
   "version": "1.0.0",
-  "description": "Testing TypeScript",
-  "main": "index.js",
+  "description": "ExpressJS with TypeScript",
+  "main": "www/index.js",
   "scripts": {
     "build": "tsc -p ./src/server --outDir ./www && tsc -p ./src/client --outDir ./www/public",
     "lint": "tslint ./src/**/*.ts*",
